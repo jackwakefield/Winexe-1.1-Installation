@@ -3,6 +3,8 @@
 
 #!/bin/bash
 
+set -e
+
 echo -e "\e[31m+-+-+ WINEXE 1.1 Installation +-+-+\e[0m\n"
 echo -e "\e[1;34msudo apt-get -y install gcc-mingw-w64 comerr-dev libpopt-dev libbsd-dev zlib1g-dev libc6-dev python-dev libacl1-dev libldap2-dev git\e[0m"
 sudo apt-get -y install gcc-mingw-w64 comerr-dev libpopt-dev libbsd-dev zlib1g-dev libc6-dev python-dev libacl1-dev libldap2-dev git
